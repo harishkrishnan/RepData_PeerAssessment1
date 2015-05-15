@@ -143,4 +143,3 @@ xyplot(avgSteps$meanOfSteps ~ avgSteps$interval | avgSteps$weekdays,
        layout = c(1, 2), type = "l", xlab = "Interval", ylab = "Number of steps")
 
 ```
-e differences in activity patterns between weekdays and weekends?
