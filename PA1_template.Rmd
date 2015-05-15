@@ -1,9 +1,10 @@
 Reproducible Research: Peer Assessment 1
 ==========================================
+---
 author: "Harish Krishnan"
 date: "Saturday, May 16, 2015"
 output: html_document
-
+---
 ### Universal
 ```{r}
 echo = TRUE
@@ -124,9 +125,8 @@ Inference: new mean same as that of the old mean, new median greater than the ol
 head(completeData)
 completeData$weekdays <- factor(format(completeData$date, "%A"))
 levels(completeData$weekdays)
-levels(completeData$weekdays) <- list(weekday = c("Monday", "Tuesday","Wednesday", 
-                                                  "Thursday", "Friday"),
-                                 weekend = c("Saturday", "Sunday"))
+levels(completeData$weekdays) <- list(weekday = c("Monday", "Tuesday","Wednesday","Thursday", "Friday"),
+                                      weekend = c("Saturday", "Sunday"))
 levels(completeData$weekdays)
 table(completeData$weekdays)
 ```
