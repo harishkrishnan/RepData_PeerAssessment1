@@ -1,6 +1,8 @@
 Reproducible Research: Peer Assessment 1
 ==========================================
-Created by Harish Krishnan on May 15, 2015
+author: "Harish Krishnan"
+date: "Saturday, May 16, 2015"
+output: html_document
 
 ### Universal
 ```{r}
